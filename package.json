@@ -1,0 +1,28 @@
+{
+  "name": "compasscar-api",
+  "version": "1.0.0",
+  "description": "API for Compass Car to manage vehicles with CRUD and validation",
+  "main": "index.js",
+  "type": "module",
+  "engine": {
+    "node": ">=22.13.1"
+  },
+  "scripts": {
+    "server": "node --watch app.js",
+    "test": "node --test ./src/tests/e2e/api.test.js",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [],
+  "author": "Immanuel da Rocha Barbosa Vicente",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
