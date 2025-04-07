@@ -11,9 +11,7 @@ API for Compass Car to manage vehicles with CRUD and validation
 - Search for cars by query
 - Field validation (e.g., license plate, year, etc.)
 
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Node.js
 - Express
@@ -23,7 +21,7 @@ API for Compass Car to manage vehicles with CRUD and validation
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
 
