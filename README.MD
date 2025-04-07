@@ -40,13 +40,15 @@ API for Compass Car to manage vehicles with CRUD and validation
 
    This project uses **MySQL** as the relational database and **Sequelize** as the ORM (Object Relational Mapper).
 
+   You can use **XAMPP** or **MySQL Workbench** to setup a MySQL Database on your machine.
+
    With MySQL Server running, create a new database before running the application
 
    ```sql
     CREATE DATABASE compasscar
    ```
 
-   You must have MySQL installed and running on your machine before starting the project.
+   You must have MySQL Server installed and running on your machine before starting the project.
 
 4. **Environment setup**
 
@@ -69,14 +71,14 @@ API for Compass Car to manage vehicles with CRUD and validation
 
      DB_NAME=compasscar
      DB_USER=root
-     DB_PASSWORD=123
+     DB_PASSWORD=
      DB_DIALECT=mysql
      DB_HOST=localhost
    ```
 
 5. **Run the application**
 
-   To make sure everything is running as expected, run the command
+   To make sure the API is running as expected, run the command
 
    ```bash
    npm run test
