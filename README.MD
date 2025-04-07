@@ -1,6 +1,6 @@
 # AWS Node MAR25 - Car Management API
 
-## API for Compass Car to manage vehicles with CRUD and validation
+API for Compass Car to manage vehicles with CRUD and validation
 
 ## Features
 
