@@ -67,7 +67,6 @@ async function listCars(filters = {}, page = 1, limit = 5) {
 }
 
 async function updateCar(id, updateData) {
-  console.log("updateData", updateData);
   const car = await Cars.findByPk(id);
   const isSamePlate = await Cars.findOne({
     where: { plate: updateData.plate },
